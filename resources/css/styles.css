@@ -1,9 +1,27 @@
+@font-face {
+  font-family: "Space Mono";
+  src:url("../fonts/Space_Mono/SpaceMono-Regular.ttf") format("truetype")
+}
+
+body {
+  background-color: burlywood;
+}
 table {
-    border: 2px solid rgb(140 140 140);
-  }
+  line-height: 1.5;
+  border: 2px solid saddlebrown;
+}
   
-  th,
-  td {
-    border: 1px solid rgb(160 160 160);
-  }
-  
+th,
+td {
+  border-bottom: 1px solid saddlebrown;
+  padding: 1px 4px;
+}
+
+thead {
+  background-color: saddlebrown;
+  opacity: 0.8;
+}
+code.HTML {
+  font-family: "Space Mono", monospace;
+  background-color: sienna;
+}
