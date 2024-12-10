@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="resources/css/styles.css" type="text/css">
+<html>
+    <head>
+        <title>HTML & css</title>
+    </head>
+
+    <body>
+        <header></header>
+        <main>
+            <h1>HTML to remember</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Used in</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">tag</th>
+                        <th scope="col">usage notes</th>
+                        <th scope="col">attributes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"> Tables</th>
+                        <td>table</td>
+                        <td><code class="HTML">&lt;table&gt;</code></td>
+                        <td>Outer tag of table</td>
+                        <td class="empty"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>table head</td>
+                        <td><code class="HTML">&lt;thead&gt;</code></td>
+                        <td>Head of the table. Should contain a <code class="HTML">&lt;tr&gt;</code> with <code class="HTML">&lt;th&gt;</code>'s inside</td>
+                        <td class="empty"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>table body</td>
+                        <td><code class="HTML">&lt;tbody&gt;</code></td>
+                        <td>Body of the table. Should contain <code class="HTML">&lt;tr&gt;</code>s for the rest of the rows.</td>
+                        <td class="empty"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>table footer</td>
+                        <td><code class="HTML">&lt;tfoot&gt;</code></td>
+                        <td>Footer of the table. Should contain a <code class="HTML">&lt;tr&gt;</code>s for some summary of the table.</td>
+                        <td class="empty"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>table caption</td>
+                        <td><code class="HTML">&lt;caption&gt;</code></td>
+                        <td>Caption for the table.</td>
+                        <td class="empty"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>table row</td>
+                        <td><code class="HTML">&lt;tr&gt;</code></td>
+                        <td>A row of the table. Should contain (a) <code class="HTML">&lt;th&gt;</code> and some <code class="HTML">&lt;td&gt;</code> for the rest of the columns.</td>
+                        <td class="empty"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>table header</td>
+                        <td><code class="HTML">&lt;th&gt;</code></td>
+                        <td>The start of a row or a column. Explains what is contained in the row/column.</td>
+                        <td>
+                            <code class="HTML"> scope</code>: is it the header of a 
+                            <code class="HTML">"column"</code> or <code class="HTML">"row"</code>
+                            <br>
+                            <code class="HTML">colspan/rowspan</code>: how many columns/rows does it span, default 1.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>table data</td>
+                        <td><code class="HTML">&lt;td&gt;</code></td>
+                        <td>The data contained in a cell.</td>
+                        <td>
+                            <code class="HTML">colspan/rowspan</code>: how many columns/rows does it span, default 1.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer></footer>
+    </body>
+</html>
